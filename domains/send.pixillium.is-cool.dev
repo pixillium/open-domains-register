@@ -1,0 +1,14 @@
+{
+    "description": "Used for Resend Email propagation.",
+    "domain": "is-cool.dev",
+    "subdomain": "send.pixillium",
+    "owner": {
+        "repo": "https://github.com/pixillium/open-domains-register",
+        "email": "pixillium.official@gmail.com"
+    },
+    "record": {
+        "MX": ["feedback-smtp.us-east-1.amazonses.com"],
+        "TXT": ["v=spf1 include:amazonses.com ~all"]
+    },
+    "proxied": false
+}
